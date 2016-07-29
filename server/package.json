@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "gulp build",
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "Russell Hueske <hueske.russ690@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.11.6",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-debug": "^2.1.2"
+  },
+  "dependencies": {
+    "dnode": "^1.2.2"
+  }
+}
